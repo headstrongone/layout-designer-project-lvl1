@@ -18,6 +18,7 @@
   },
   "homepage": "https://github.com/headstrongone/layout-designer-project-lvl1#readme",
   "devDependencies": {
+    "htmlhint": "^0.14.1",
     "stylelint": "^13.7.2",
     "stylelint-config-standard": "^20.0.0"
   }
