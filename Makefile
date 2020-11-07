@@ -7,6 +7,5 @@ csslint:
 htmllint:
 	npx htmlhint "**/*.html";
 
-#publish:
-#	npm build --sav;
-#	npm link;
+surge:
+	surge src/ hsprojectone.surge.sh;
