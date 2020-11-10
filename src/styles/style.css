@@ -13,8 +13,17 @@
     font-size: 72px;
     line-height: 120%;
 }
+
 .background-dark {
     background: #42413C;
+}
+
+.color-dark{
+    color: #42413C;
+}
+
+.white{
+    color: white;
 }
 
 .orange {
@@ -84,6 +93,22 @@
     display: flex;
 }
 
+.card-number-font{
+    font-family: Neucha;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 64px;
+    line-height: 70px;
+}
+
+.card-header-font{
+    font-family: Neucha;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 34px;
+    line-height: 120%;
+}
+
 .text {
     font-family: Open Sans, sans-serif;
     font-style: normal;
@@ -98,7 +123,6 @@
 .btn {
 
 }
-
 
 .about__button {
     position: relative;
@@ -140,6 +164,52 @@ a:hover{
 
 .video__player{
     text-align: center;
-    /*filter: drop-shadow(0 16px 32px rgba(0, 0, 0, 0.15)); */
     filter: drop-shadow(0 0 0.75rem #FE8A02);
+}
+
+.q-cards{
+    margin-top: -100px;
+    padding-bottom: 250px;
+}
+
+
+.q-cards__row {
+    position: relative;
+    top: 200px;
+    margin: 0 auto;
+}
+
+.q-cards__column {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: stretch;
+}
+
+.item-about {
+    width: 350px;
+    background-color: #F5F4F0;
+    margin: 15px;
+}
+
+.main-item{
+    font-family: Neucha, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 52px;
+    line-height: 120%;
+}
+
+.item-about__number {
+    padding: 24px 0px 24px 24px;
+}
+
+.item-about__name {
+    padding: 0px 24px 4px 24px;
+}
+
+.item-about__definition {
+    padding: 0px 24px 4px 24px;
+
 }
