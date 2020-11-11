@@ -21,6 +21,10 @@ a {
   background: #42413c;
 }
 
+.background-brown {
+  background: #B09A81;
+}
+
 .color-dark {
   color: #42413c;
 }
@@ -158,12 +162,12 @@ a {
 
 .q-cards {
   margin-top: -100px;
-  padding-bottom: 250px;
+  padding-bottom: 270px;
 }
 
 .q-cards__row {
   position: relative;
-  top: 200px;
+  top: 185px;
   margin: 0 auto;
 }
 
@@ -176,7 +180,7 @@ a {
 }
 
 .item-about {
-  width: 350px;
+  max-width: 350px;
   background-color: #f5f4f0;
   margin: 15px;
 }
@@ -199,4 +203,95 @@ a {
 
 .item-about__definition {
   padding: 0 24px 4px 24px;
+}
+
+
+.effect {
+
+}
+
+.effect-header {
+  max-width: 1110px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: flex-start;
+  padding-top: 101px;
+  margin: 0px auto;
+}
+
+.effect-header__image {
+  filter: drop-shadow(0 16px 32px rgba(0, 0, 0, 0.15));
+}
+
+.effect-header-title {
+  padding: 0 0 0 31px;
+}
+
+.effect-header-title__name {
+  font-family: Neucha, sans-serif;
+  font-size: 24px;
+  font-style: normal;
+  color: #908D8B;
+  font-weight: 400;
+  line-height: 29px;
+  letter-spacing: 0;
+  text-align: left;
+}
+
+.effect-header-title__header {
+  padding: 8px 0 24px 0;
+  font-family: Neucha, sans-serif;
+  font-size: 60px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 66px;
+  letter-spacing: 0;
+  text-align: left;
+}
+
+.effect-header-title__description {
+  font-family: Neucha, sans-serif;
+  font-size: 34px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 41px;
+  letter-spacing: 0;
+  text-align: left;
+}
+
+.effect-about {
+  max-width: 1110px;
+  margin: 72px auto;
+}
+
+.effect__how {
+  padding: 4px 0 4px 8px;
+  font-family: Open Sans, sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 160%;
+  text-transform: uppercase;
+}
+
+.how-item {
+  padding-top: 24px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: flex-start;
+  flex-wrap: wrap;
+}
+
+.how-item__about {
+  flex: 1 1 0;
+  font-family: Open Sans, sans-serif;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 26px;
+  letter-spacing: 0;
+  text-align: left;
+
 }
