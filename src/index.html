@@ -24,7 +24,7 @@
             <div class="row-item__text text">Вместе они формируют что-то вроде замкнутого цикла,<br> и это может привести к длительной потере продуктивности, багам и бесконечному разочарованию.
                 <br><br>Если мы сможем минимизировать воздействие одного или нескольких из этих факторов, то сможем сломать и цикл, а остатки нейтрализовать.</div>
         </div>
-        <a href="#more">
+        <a href="#more" class="link-decoration-off">
             <div class="about__button">Подробнее</div>
         </a>
     </div>
@@ -48,7 +48,7 @@
                 </div>
 
                 <div class="item-about">
-                    <a href="#effect-ikea">
+                    <a href="#effect-ikea" class="link-decoration-off">
                         <div class="item-about__number card-number-font">1</div>
                         <div class="item-about__name card-header-font">Эффект ИКЕА</div>
                         <div class="item-about__definition text">Вы переоцениваете собственные решения, и, как следствие, недооцениваете решения других<br></div>
@@ -56,7 +56,7 @@
                 </div>
 
                 <div class="item-about">
-                    <a href="#optimization">
+                    <a href="#optimization" class="link-decoration-off">
                         <div class="item-about__number card-number-font">2</div>
                         <div class="item-about__name card-header-font">Преждевременная оптимизация</div>
                         <div class="item-about__definition text">Вы оптимизируете что-то задолго до того, как в этом появляется необходимость.</div>
@@ -64,7 +64,7 @@
                 </div>
 
                 <div class="item-about animation">
-                    <a href="#novizna">
+                    <a href="#novizna" class="link-decoration-off">
                         <div class="item-about__number card-number-font">3</div>
                         <div class="item-about__name card-header-font">Искажение новизны</div>
                         <div class="item-about__definition text">Вы даёте более высокую оценку тем событиям, которые произошли недавно, и недооцениваете более старые.<br></div>
@@ -72,7 +72,7 @@
                 </div>
 
                 <div class="item-about">
-                    <a href="#giperbola">
+                    <a href="#giperbola" class="link-decoration-off">
                         <div class="item-about__number card-number-font">4</div>
                         <div class="item-about__name card-header-font">Гиперболическое обесценивание</div>
                         <div class="item-about__definition text">Вы гонитесь за немедленной маленькой выгодой и игнорируете более крупную, недоступную сейчас, но доступную в будущем. <br><br><br></div>
@@ -80,8 +80,8 @@
                 </div>
 
 
-                <div class="item-about">
-                    <a href="#mistake">
+                <div class="item-about" >
+                    <a href="#mistake" class="link-decoration-off">
                         <div class="item-about__number card-number-font">5</div>
                         <div class="item-about__name card-header-font">Ошибка планирования</div>
                         <div class="item-about__definition text">Неправильно рассчитывать время необходимое для завершения задачи.<br></div>
@@ -203,19 +203,20 @@
             <div class="footer-main__text white">Хотите узнать больше? <br>Подпишитесь на обновления</div>
             <div class="footer-email">
                 <div class="footer-email__label white">Электронная почта</div>
-                <div class="footer-email__input">
-                    <input type="email" placeholder="Ваша электронная почта" class="email_input">
-                    <input type="submit" value="" id="submit_button">
-                </div>
-                <div class="footer-email__rules white"> Подписываясь, вы принимаете <a href="#" style="text-decoration: underline">правила сервиса</a></div>
+                <form class="footer-email__input">
+                    <input type="email" placeholder="Ваша электронная почта" class="email_input" required>
+                    <button type="submit" value="submit" id="submit_button"></button>
+                </form>
+                <div class="footer-email__rules white"> Подписываясь, вы принимаете <a href="#" class="link-decoration-on">правила сервиса</a></div>
             </div>
         </div>
+
         <div class="footer__contact">
             <p> © 2020 Roman Braslavskiy</p>
             <br>
-            <p>По материалам статьи <a href="https://medium.com/hackernoon/cognitive-biases-in-programming-5e937707c27b"> Yash Ranadive Cognitive Biases in Programming</a></p>
+            <p>По материалам статьи <a href="https://medium.com/hackernoon/cognitive-biases-in-programming-5e937707c27b" class="link-decoration-on"> Yash Ranadive Cognitive Biases in Programming</a></p>
             <br>
-            <p>Курсы программирования <a href="https://ru.hexlet.io">Hexlet</a></p>
+            <p>Курсы программирования <a href="https://ru.hexlet.io" class="link-decoration-on">Hexlet</a></p>
         </div>
     </div>
 </footer>
