@@ -9,6 +9,14 @@
 a {
   text-decoration: none;
 }
+
+.padding-left31{
+  padding: 0 0 0 31px;
+}
+.padding-right31{
+  padding: 0 31px 0 0;
+}
+
 .title {
   font-family: Neucha, sans-serif;
   font-style: normal;
@@ -17,6 +25,13 @@ a {
   line-height: 120%;
 }
 
+.grey{
+  color: #908D8B;
+}
+
+.background-white{
+  background: #ffffff;
+}
 .background-dark {
   background: #42413c;
 }
@@ -217,7 +232,7 @@ a {
   justify-content: space-between;
   align-items: flex-start;
   padding-top: 101px;
-  margin: 0px auto;
+  margin: 0 auto;
 }
 
 .effect-header__image {
@@ -225,14 +240,14 @@ a {
 }
 
 .effect-header-title {
-  padding: 0 0 0 31px;
+
 }
 
 .effect-header-title__name {
   font-family: Neucha, sans-serif;
   font-size: 24px;
   font-style: normal;
-  color: #908D8B;
+
   font-weight: 400;
   line-height: 29px;
   letter-spacing: 0;
@@ -262,7 +277,9 @@ a {
 
 .effect-about {
   max-width: 1110px;
-  margin: 72px auto;
+  margin: auto;
+  padding: 72px 0 100px 0;
+  /*padding-bottom: 100px;*/
 }
 
 .effect__how {
